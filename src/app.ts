@@ -7,5 +7,5 @@ const awesome = document.querySelector("#awesome") as HTMLInputElement;
 
 form.addEventListener("submit", (e: Event) => {
   e.preventDefault();
-  console.log(type.value, userName.value, age.valueAsNumber, awesome.checked,"Just for commit","Just another commit!");
+  console.log(type.value, userName.value, age.valueAsNumber, awesome.checked,"Just for commit","Just another commit!","Just Just another commit");
 });
