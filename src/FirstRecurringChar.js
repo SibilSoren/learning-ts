@@ -11,4 +11,4 @@ function findFirstOcc(data) {
   }
   return undefined;
 }
-console.log(findFirstOcc(arr));
+console.log(findFirstOcc(arr),"Just a commit");
