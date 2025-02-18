@@ -6,5 +6,5 @@ const age = document.querySelector("#age");
 const awesome = document.querySelector("#awesome");
 form.addEventListener("submit", (e) => {
     e.preventDefault();
-    console.log(type.value, userName.value, age.valueAsNumber, awesome.checked);
+    console.log(type.value, userName.value, age.valueAsNumber, awesome.checked, "Just for commit");
 });
